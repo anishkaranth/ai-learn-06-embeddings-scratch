@@ -46,8 +46,8 @@
 
 ## Plots
 
-- [`loss_curve.png`](loss_curve.png) / [`loss_curve.svg`](loss_curve.svg)
-- [`embedding_pca.png`](embedding_pca.png) / [`embedding_pca.svg`](embedding_pca.svg)
+- [`loss_curve.svg`](loss_curve.svg)
+- [`embedding_pca.svg`](embedding_pca.svg)
 
 ## Takeaway
 

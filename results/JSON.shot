@@ -1,0 +1,19 @@
+{
+  "project": "ai-learn-06-embeddings-scratch",
+  "vocab_size": 86,
+  "loss_initial": 4.10049,
+  "loss_final": 1.285635,
+  "mean_related_cosine": 0.6571,
+  "mean_unrelated_cosine": 0.3141,
+  "cluster_sanity_ok": true,
+  "nearest_neighbors": {
+    "cat": ["dog", "mouse", "road"],
+    "fly": ["east", "water", "sky"],
+    "king": ["rule", "queen", "prince"],
+    "python": ["html", "science", "are"],
+    "sun": ["water", "rises", "pond"],
+    "math": ["study", "teach", "science"]
+  },
+  "runtime_s": 2.187,
+  "seed": 42
+}

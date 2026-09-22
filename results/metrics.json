@@ -1,0 +1,29 @@
+{
+  "project": "ai-learn-06-embeddings-scratch",
+  "seed": 42,
+  "vocab_size": 86,
+  "n_sentences": 26,
+  "n_pairs": 412,
+  "dim": 32,
+  "window": 2,
+  "n_neg": 5,
+  "epochs": 60,
+  "lr": 0.08,
+  "loss_initial": 4.10049,
+  "loss_final": 1.285635,
+  "loss_history": [4.10049, 3.723456, 3.228079, 2.81974, 2.522597, 2.295255, 2.127511, 2.033323, 1.873334, 1.77538, 1.670679, 1.651275, 1.633579, 1.590747, 1.491521, 1.421068, 1.425423, 1.42894, 1.419379, 1.448811, 1.431638, 1.350487, 1.35209, 1.348474, 1.357118, 1.370762, 1.361623, 1.371303, 1.376711, 1.344719, 1.347186, 1.370674, 1.352607, 1.345951, 1.301567, 1.308333, 1.399985, 1.329851, 1.307431, 1.280906, 1.276083, 1.348033, 1.310724, 1.302332, 1.275657, 1.301883, 1.313347, 1.299319, 1.247643, 1.415436, 1.348442, 1.289804, 1.255552, 1.287635, 1.310897, 1.343178, 1.244481, 1.331338, 1.334999, 1.285635],
+  "nearest_neighbors": {
+    "cat": [{"word": "dog", "cosine": 0.9727}, {"word": "mouse", "cosine": 0.88}, {"word": "road", "cosine": 0.7591}, {"word": "rug", "cosine": 0.7215}, {"word": "rails", "cosine": 0.7089}],
+    "fly": [{"word": "east", "cosine": 0.7577}, {"word": "water", "cosine": 0.7473}, {"word": "sky", "cosine": 0.7263}, {"word": "in", "cosine": 0.7129}, {"word": "pond", "cosine": 0.705}],
+    "king": [{"word": "rule", "cosine": 0.8304}, {"word": "queen", "cosine": 0.6791}, {"word": "prince", "cosine": 0.6733}, {"word": "and", "cosine": 0.6458}, {"word": "carrots", "cosine": 0.6264}],
+    "python": [{"word": "html", "cosine": 0.6878}, {"word": "science", "cosine": 0.6809}, {"word": "are", "cosine": 0.6745}, {"word": "coffee", "cosine": 0.6684}, {"word": "programming", "cosine": 0.6263}],
+    "sun": [{"word": "water", "cosine": 0.79}, {"word": "rises", "cosine": 0.7894}, {"word": "pond", "cosine": 0.7585}, {"word": "sky", "cosine": 0.7445}, {"word": "in", "cosine": 0.7101}],
+    "math": [{"word": "study", "cosine": 0.8242}, {"word": "teach", "cosine": 0.7844}, {"word": "science", "cosine": 0.7825}, {"word": "students", "cosine": 0.7554}, {"word": "teachers", "cosine": 0.7261}]
+  },
+  "related_cosine": {"cat-dog": 0.9727, "fly-sky": 0.7263, "king-queen": 0.6791, "python-java": 0.4775, "sun-moon": 0.4297},
+  "unrelated_cosine": {"cat-python": 0.2401, "king-fish": 0.1867, "sun-java": 0.3499, "fly-math": 0.3359, "tea-rails": 0.4581},
+  "mean_related_cosine": 0.6571,
+  "mean_unrelated_cosine": 0.3141,
+  "cluster_sanity_ok": true,
+  "runtime_s": 2.187
+}
